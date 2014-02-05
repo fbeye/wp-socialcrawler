@@ -1,0 +1,24 @@
+{
+    "name": "heavenconseil/wp-socialcrawler",
+    "type": "wordpress-plugin",
+    "description": "A WordPress plugin that crawls social networks looking for items containing a specific hashtag",
+    "keywords": ["WordPress", "Crawler", "Facebook", "Instagram", "Twitter", "hashtags", "API"],
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dhaya Benmessaoud",
+            "email": "dhaya.benmessaoud@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:heavenconseil/socialcrawler.git"
+        }
+    ],
+    "require": {
+        "heavenconseil/socialcrawler": "dev-master"
+    }
+}
