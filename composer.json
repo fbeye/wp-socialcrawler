@@ -3,7 +3,7 @@
     "type": "wordpress-plugin",
     "description": "A WordPress plugin that crawls social networks looking for items containing a specific hashtag",
     "keywords": ["WordPress", "Crawler", "Facebook", "Instagram", "Twitter", "hashtags", "API"],
-    "license": "proprietary",
+    "license": "MIT",
     "version": "1.0.0",
     "authors": [
         {

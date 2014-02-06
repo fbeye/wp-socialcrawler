@@ -149,12 +149,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:heavenconseil/socialcrawler.git",
-                "reference": "141fc192107ba0be73fe0f23bd989ff534f9650c"
+                "reference": "3dbbd4f42f172778375021cdf2421f04a6b2b94e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heavenconseil/socialcrawler/zipball/141fc192107ba0be73fe0f23bd989ff534f9650c",
-                "reference": "141fc192107ba0be73fe0f23bd989ff534f9650c",
+                "url": "https://api.github.com/repos/heavenconseil/socialcrawler/zipball/3dbbd4f42f172778375021cdf2421f04a6b2b94e",
+                "reference": "3dbbd4f42f172778375021cdf2421f04a6b2b94e",
                 "shasum": ""
             },
             "require": {
@@ -170,7 +170,7 @@
                 }
             },
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -179,7 +179,7 @@
                     "role": "developer"
                 }
             ],
-            "description": "PHP library that crawls social networks looking for items containing a specific hashtag",
+            "description": "A PHP library that crawls social networks looking for items containing a specific hashtag.",
             "keywords": [
                 "API",
                 "Crawler",
@@ -193,7 +193,7 @@
                 "source": "https://github.com/heavenconseil/socialcrawler/tree/master",
                 "issues": "https://github.com/heavenconseil/socialcrawler/issues"
             },
-            "time": "2014-02-05 14:43:36"
+            "time": "2014-02-06 09:50:22"
         },
         {
             "name": "monolog/monolog",
