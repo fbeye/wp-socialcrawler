@@ -4,7 +4,7 @@
     "description": "A WordPress plugin that crawls social networks looking for items containing a specific hashtag",
     "keywords": ["WordPress", "Crawler", "Facebook", "Instagram", "Twitter", "hashtags", "API"],
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Dhaya Benmessaoud",

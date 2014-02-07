@@ -1,5 +1,5 @@
 (function($) {
-    $('form').on('submit', function () {
+    $('form#wpsc_form').on('submit', function () {
         var self = this;
         if ($(self).find('.submit input').hasClass('button-disabled')) {
             return false;

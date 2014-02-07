@@ -30,8 +30,10 @@ class WP_SocialCrawler {
     }
 
     public function wpsc_admin_menu() {
-        $hook_suffix = add_menu_page(__('SocialCrawler', 'wpsc'), __('SocialCrawler', 'wpsc'), 'manage_options', WPSC_NAME, array($this, 'wpsc_admin_page'), 'dashicons-images-alt2');
-        wp_enqueue_script('wp-socialcrawler-js', plugin_dir_url(__FILE__) . 'wp-socialcrawler.js', array('jquery'), false, true);
+        add_menu_page(__('SocialCrawler', 'wpsc'), __('SocialCrawler', 'wpsc'), 'manage_options', WPSC_NAME, array($this, 'wpsc_admin_page'), 'dashicons-images-alt2');
+        if (isset($_GET['page']) && $_GET['page'] === WPSC_NAME) {
+            wp_enqueue_script('wp-socialcrawler-js', plugin_dir_url(__FILE__) . 'wp-socialcrawler.js', array('jquery'), false, true);
+        }
     }
 
     public function wpsc_admin_page() {
@@ -55,7 +57,7 @@ class WP_SocialCrawler {
             }
         ?>
         </h2>
-        <form action="<?php echo plugin_dir_url(__FILE__) . '/wp-socialcrawler.php'; ?>" method="POST">
+        <form id="wpsc_form" name="wpsc_form" action="<?php echo plugin_dir_url(__FILE__) . '/wp-socialcrawler.php'; ?>" method="POST">
             <input type="hidden" name="action" value="wpsc_store">
             <input type="hidden" name="nonce" value="<?php echo $nonce; ?>">
         <?php
