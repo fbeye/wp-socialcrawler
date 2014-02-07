@@ -1,12 +1,12 @@
 (function($) {
     $('form#wpsc_form').on('submit', function () {
         var self = this;
-        if ($(self).find('.submit input').hasClass('button-disabled')) {
+        if ($(self).find('.submit input').hasClass('button-primary-disabled')) {
             return false;
         }
 
         $(self).find('.spinner').css('display', 'inline-block');
-        $(self).find('.submit input').addClass('button-disabled');
+        $(self).find('.submit input').addClass('button-primary-disabled');
         $.ajax({
             url: ajaxurl,
             data: $(self).serializeArray()
@@ -14,7 +14,7 @@
         .then(function (result) {
             console.log(result);
             $(self).find('.spinner').css('display', 'none');
-            $(self).find('.submit input').removeClass('button-disabled');
+            $(self).find('.submit input').removeClass('button-primary-disabled');
             location.reload();
         });
         return false;
