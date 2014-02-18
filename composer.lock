@@ -149,12 +149,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:heavenconseil/socialcrawler.git",
-                "reference": "3dbbd4f42f172778375021cdf2421f04a6b2b94e"
+                "reference": "c9b48b2364397e0c8c00a5e187d7d1558ab0e3c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heavenconseil/socialcrawler/zipball/3dbbd4f42f172778375021cdf2421f04a6b2b94e",
-                "reference": "3dbbd4f42f172778375021cdf2421f04a6b2b94e",
+                "url": "https://api.github.com/repos/heavenconseil/socialcrawler/zipball/c9b48b2364397e0c8c00a5e187d7d1558ab0e3c3",
+                "reference": "c9b48b2364397e0c8c00a5e187d7d1558ab0e3c3",
                 "shasum": ""
             },
             "require": {
@@ -193,7 +193,7 @@
                 "source": "https://github.com/heavenconseil/socialcrawler/tree/master",
                 "issues": "https://github.com/heavenconseil/socialcrawler/issues"
             },
-            "time": "2014-02-06 09:50:22"
+            "time": "2014-02-18 15:50:33"
         },
         {
             "name": "monolog/monolog",
@@ -302,17 +302,17 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.4.1",
+            "version": "v2.4.2",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "e3ba42f6a70554ed05749e61b829550f6ac33601"
+                "reference": "4708b8cd41984a5ba29fe7dd40716f7f761ac501"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/e3ba42f6a70554ed05749e61b829550f6ac33601",
-                "reference": "e3ba42f6a70554ed05749e61b829550f6ac33601",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/4708b8cd41984a5ba29fe7dd40716f7f761ac501",
+                "reference": "4708b8cd41984a5ba29fe7dd40716f7f761ac501",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -352,7 +354,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-28 08:12:03"
+            "time": "2014-02-11 13:52:09"
         }
     ],
     "packages-dev": [
